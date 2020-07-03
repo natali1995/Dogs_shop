@@ -1,0 +1,226 @@
+/* Variables */
+$color_fonts1: #b20838
+$font_family_h1: 'Jacques Francois Shadow', cursive
+$font_family_p: 'Philosopher', sans-serif
+$font_size_h1-1: 30px
+$font_size_p-1: 20px
+$b-ground: #e3f0ff
+
+/* General styles */
+h1
+  font-family: $font_family_h1
+  font-size: $font_size_h1-1
+  line-height: 1.1
+
+body
+  background-color: $b-ground
+
+/* стили для элемента body */
+body
+  margin: 0
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  color: $color_fonts1
+  height: 3000px
+
+/* стили основного контейнера слайдера */
+.slider
+  position: relative
+  overflow: hidden
+  max-width: 100%
+  margin-left: auto
+  margin-right: auto
+
+/* стили для обёртки, в которой заключены слайды */
+.slider__wrapper
+  position: relative
+  overflow: hidden
+
+/* стили для контейнера слайдов */
+.slider__items
+  display: flex
+  transition: transform 0.6s ease
+
+/* стили для слайдов */
+.slider__item
+  flex: 0 0 100%
+  max-width: 100%
+
+/* стили для кнопок "вперед" и "назад" */
+.slider__control
+  position: absolute
+  top: 50%
+  display: none
+  align-items: center
+  justify-content: center
+  width: 40px
+  color: $color_fonts1
+  text-align: center
+  opacity: 0.6
+  height: 50px
+  transform: translateY(-50%)
+  background: none
+
+.slider__control_show
+  display: flex
+
+.slider__control:hover,
+.slider__control:focus
+  color: $color_fonts1
+  text-decoration: none
+  outline: 0
+  opacity: 0.9
+
+.slider__control_prev
+  left: 0
+
+.slider__control_next
+  right: 0
+
+.slider__control::before
+  content: ''
+  display: inline-block
+  width: 20px
+  height: 20px
+  background: transparent no-repeat center center
+  background-size: 100% 100%
+
+.slider__control_prev::before
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b20838' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+
+.slider__control_next::before
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b20838' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+
+/* стили для индикаторов */
+.slider__indicators
+  position: absolute
+  right: 0
+  bottom: 10px
+  left: 0
+  z-index: 15
+  display: flex
+  justify-content: center
+  padding-left: 0
+  margin-right: 15%
+  margin-left: 15%
+  list-style: none
+  margin-top: 0
+  margin-bottom: 0
+
+.slider__indicators li
+  box-sizing: content-box
+  flex: 0 1 auto
+  width: 30px
+  height: 4px
+  margin-right: 3px
+  margin-left: 3px
+  text-indent: -999px
+  cursor: pointer
+  background-color: $color_fonts1
+  opacity: 0.6
+  background-clip: padding-box
+  border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+
+.slider__indicators li.active
+  background-color: $color_fonts1
+  opacity: 1.0
+
+/* для стилизации текущего слайдера */
+.img-fluid
+  display: inline-block
+  height: auto
+  max-width: 100%
+
+
+/* для 1 слайда */
+.slide1
+  background-image: url("img/slide1-mobile.jpg")
+  background-size: cover
+
+.slide2
+  background-image: url("img/slide2-mobile.jpg")
+  background-size: cover
+
+.slide3
+  background-image: url("img/slide3-mobile.jpg")
+  background-size: cover
+
+.slide4
+  background-image: url("img/slide4-mobile.jpg")
+  background-size: cover
+
+/* для кнопки search */
+*
+  box-sizing: border-box
+
+.search-form
+  position: relative
+  width: 230px
+  margin: 0 auto
+
+.search-input, .submit-search
+  outline: none
+  background: transparent
+
+.search-input
+  color: $color_fonts1
+  width: 100%
+  height: 42px
+  padding-left: 15px
+  border: 3px solid $color_fonts1
+  border-radius: 36px
+  font-family: $font_family_p
+  font-size: 20px
+
+input[type="text"]::-webkit-input-placeholder
+  color: $color_fonts1
+  opacity: 0.6
+
+input[type="text"]::-moz-placeholder
+  color: $color_fonts1
+  opacity: 0.6
+
+.submit-search
+  border: none
+  height: 42px
+  width: 42px
+  position: absolute
+  top: 0
+  right: 0
+  cursor: pointer
+  margin-right: 15px
+
+.search-input:focus
+  box-shadow: 0 0 0.25em 0.25em rgba(179, 7, 39, 0.25)
+
+.fa-search
+  color: $color_fonts1
+  font-size: $font_size_p-1
+
+
+/* For menu */
+.menu-list
+  list-style-type: none
+
+.menu-link
+  text-decoration: none
+  font-size: $font_size_h1-1
+  line-height: 1.1
+  color: $color_fonts1
+  opacity: 0.6
+  font-family: $font_family_h1
+
+.menu-link-active
+  opacity: 1.0
+
+.menu-link:hover
+  opacity: 1.0
+
+/* Style for section offer */
+.offer-p
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+  line-height: 1.15
+
+.fa-dog, .fa-coins, .fa-truck, .fa-clock, .fa-heartbeat
+  font-size: $font_size_p-1 + 10px

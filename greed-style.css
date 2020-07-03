@@ -1,0 +1,99 @@
+.content-menu {
+  display: grid;
+  grid-template-areas: "logo menu" "search menu";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 130px 200px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.logo {
+  grid-area: logo;
+  height: 80%;
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 5px;
+}
+
+.search-form {
+  grid-area: search;
+  justify-self: start;
+}
+
+.menu {
+  grid-area: menu;
+  text-align: end;
+}
+
+.menu-list {
+  padding-top: 20px;
+}
+
+/* for section offers */
+.offers {
+  position: relative;
+}
+
+.heart1 {
+  position: absolute;
+  height: 20%;
+  margin-top: 200px;
+  margin-left: -40px;
+  transform: rotate(40deg);
+}
+
+.dog1 {
+  position: absolute;
+  height: 45%;
+  margin-top: 540px;
+  right: 0;
+}
+
+.our-offer {
+  display: grid;
+  grid-template-areas: "heading-offer" "offer1" "offer2" "offer3" "offer4" "offer5";
+  margin-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.offer-heading {
+  grid-area: heading-offer;
+  justify-self: center;
+}
+
+.offer1 {
+  grid-area: offer1;
+  justify-self: start;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.offer2 {
+  grid-area: offer2;
+  justify-self: end;
+  width: 300px;
+  text-align: center;
+}
+
+.offer3 {
+  grid-area: offer3;
+  justify-self: start;
+  width: 200px;
+  text-align: center;
+}
+
+.offer4 {
+  grid-area: offer4;
+  justify-self: end;
+  text-align: center;
+}
+
+.offer5 {
+  grid-area: offer5;
+  justify-self: start;
+  width: 270px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=greed-style.css.map */
