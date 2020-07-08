@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="wowanimate.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
 </head>
 <body>
 <section>
@@ -31,7 +34,7 @@
                                         <a class="menu-link menu-link-active" href="home.html"><i class="fas fa-home"></i>Home</a>
                                     </li>
                                     <li class="menu-list">
-                                        <a class="menu-link" href="#">Catalog</a>
+                                        <a class="menu-link" href="catalog.html">Catalog</a>
                                     </li>
                                     <li class="menu-list">
                                         <a class="menu-link" href="#">Order Form</a>
@@ -57,7 +60,7 @@
                                         <a class="menu-link menu-link-active" href="home.html"><i class="fas fa-home"></i>Home</a>
                                     </li>
                                     <li class="menu-list">
-                                        <a class="menu-link" href="#">Catalog</a>
+                                        <a class="menu-link" href="catalog.html">Catalog</a>
                                     </li>
                                     <li class="menu-list">
                                         <a class="menu-link" href="#">Order Form</a>
@@ -83,7 +86,7 @@
                                         <a class="menu-link menu-link-active" href="home.html"><i class="fas fa-home"></i>Home</a>
                                     </li>
                                     <li class="menu-list">
-                                        <a class="menu-link" href="#">Catalog</a>
+                                        <a class="menu-link" href="catalog.html">Catalog</a>
                                     </li>
                                     <li class="menu-list">
                                         <a class="menu-link" href="#">Order Form</a>
@@ -109,7 +112,7 @@
                                         <a class="menu-link menu-link-active" href="home.html"><i class="fas fa-home"></i>Home</a>
                                     </li>
                                     <li class="menu-list">
-                                        <a class="menu-link" href="#">Catalog</a>
+                                        <a class="menu-link" href="catalog.html">Catalog</a>
                                     </li>
                                     <li class="menu-list">
                                         <a class="menu-link" href="#">Order Form</a>
@@ -127,35 +130,75 @@
     <script src="animation_slider.js"></script>
 </section>
 <section class="offers">
-    <img class="heart1" src="img/phone-img1.png" alt="phone">
-    <img class="dog1" src="img/phone-img2.png" alt="phone">
     <div class="our-offer">
         <h1 class="offer-heading">What we can offer</h1>
-        <div class="offer1 animate__animated animate__lightSpeedInLeft">
+        <div class="offer1 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0.6s">
             <i class="fas fa-dog"></i>
             <p class="offer-p">We have the best pets</p>
         </div>
-        <div class="offer2 animate__animated animate__lightSpeedInLeft">
+        <div class="offer2 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0.6s">
             <i class="fas fa-coins"></i>
             <p class="offer-p">We are training every pets
                 a general commands before
                 you decide to take it </p>
         </div>
-        <div class="offer3 animate__animated animate__lightSpeedInLeft">
+        <div class="offer3 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0.6s">
             <i class="fas fa-truck"></i>
             <p class="offer-p">We deliver your pets
                 to right at home</p>
         </div>
-        <div class="offer4 animate__animated animate__lightSpeedInLeft">
+        <div class="offer4 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0.6s">
             <i class="far fa-clock"></i>
             <p class="offer-p">We work day and night</p>
         </div>
-        <div class="offer5 animate__animated animate__lightSpeedInLeft">
+        <div class="offer5 wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="0.6s">
             <i class="fas fa-heartbeat"></i>
             <p class="offer-p">If you don't like the pets,
                 during 7 days we  ready take
                 back it and pay back our money</p>
         </div>
+    </div>
+</section>
+<section>
+    <h1 class="choose-dog-h1">Choose your dog</h1>
+    <div class="trending-dogs">
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/chichuahua.jpg" alt="chichuahua"></a>
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/spitz.jpg" alt="spitz"></a>
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/yorkshier-terier.jpg" alt="yorkshier-terrier"></a>
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/korgi.jpg" alt="korgi"></a>
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/labrador.jpg" alt="labrador"></a>
+        <a class="petty" href="dog_description.html"><img class="pet1" src="img/akita-inu.jpg" alt="akita-inu"></a>
+    </div>
+</section>
+<section class="footer-section">
+    <img src="img/orig.gif" width="100%" height="100%" alt="line"><br>
+    <div class="footer">
+        <div class="address">
+            <h3 class="footer-address-h3">Address</h3>
+            <p class="footer-address-p footer-p">244 Jackson St San Francisko</p>
+        </div>
+        <div class="email">
+            <h3 class="footer-email-h3">E-mail</h3>
+            <p class="footer-email-p footer-p">lovely_pets.com</p>
+        </div>
+        <div class="request-call">
+            <i class="fas fa-phone-volume"></i>
+            <h3 class="footer-request-h3">Request call</h3>
+        </div>
+        <div class="phone">
+            <h3 class="footer-phone-h3">Phone</h3>
+            <p class="footer-phone-p footer-p">+1(489)715-89-67</p>
+        </div>
+        <div class="social-network">
+            <h3 class="footer-social-network-h3">You can find us:</h3>
+            <i class="fab fa-twitter"></i>
+            <p class="footer-twitter-p footer-p">lovely_pets.com</p>
+            <i class="fab fa-facebook"></i>
+            <p class="footer-facebook-p footer-p">lovely_pets.com</p>
+            <i class="fab fa-telegram"></i>
+            <p class="footer-telegram-p footer-p">lovely_pets.com</p>
+        </div>
+        <p class="copyright">&copy; Copyright - lovely_pets.com 2020. All right reserved</p>
     </div>
 </section>
 </body>

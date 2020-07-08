@@ -5,6 +5,9 @@ $font_family_p: 'Philosopher', sans-serif
 $font_size_h1-1: 30px
 $font_size_p-1: 20px
 $b-ground: #e3f0ff
+$color_fonts2: #000000
+$font-size-p2: 15px
+$font-size-footer: 13px
 
 /* General styles */
 h1
@@ -18,9 +21,7 @@ body
 /* стили для элемента body */
 body
   margin: 0
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
   color: $color_fonts1
-  height: 3000px
 
 /* стили основного контейнера слайдера */
 .slider
@@ -217,10 +218,236 @@ input[type="text"]::-moz-placeholder
   opacity: 1.0
 
 /* Style for section offer */
-.offer-p
+p
   font-family: $font_family_p
   font-size: $font_size_p-1
   line-height: 1.15
 
 .fa-dog, .fa-coins, .fa-truck, .fa-clock, .fa-heartbeat
   font-size: $font_size_p-1 + 10px
+
+/* Style for section choose dog */
+.choose-dog-h1
+  margin-top: 75px
+  text-align: center
+
+.trending-dogs
+  padding-left: 40px
+  padding-right: 40px
+  margin-top: 60px
+  justify-self: center
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-column-gap: 20px
+  grid-row-gap: 20px
+
+.pet1
+  width: 98%
+
+/* Style for section footer */
+h3
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+  line-height: 1.15
+  font-style: italic
+
+.footer-p
+  font-size: $font-size-p2
+  color: $color_fonts2
+  font-style: italic
+  line-height: 1.13
+
+.footer-request-h3, .footer-social-network-h3
+  color: $color_fonts2
+
+.fa-phone-volume
+  font-size: 30px
+
+.fa-twitter, .fa-facebook, .fa-telegram
+  font-size: $font_size_p-1
+
+.copyright
+  color: $color_fonts2
+  font-size: $font-size-footer
+  font-style: italic
+  line-height: 1.15
+
+/* Style for page Contact */
+/* Style for section filter */
+.sidenav
+  height: 100%
+  width: 0
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  background-color: #21021E
+  overflow-x: hidden
+  transition: 0.5s
+  padding-top: 60px
+
+.sidenav a
+  padding: 8px 8px 8px 32px
+  text-decoration: none
+  font-size: 25px
+  color: #818181
+  display: block
+  transition: 0.3s
+
+.sidenav a:hover
+  color: #f1f1f1
+
+.sidenav .closebtn
+  position: absolute
+  top: 0
+  right: 25px
+  font-size: 36px
+  margin-left: 50px
+
+
+#main
+  transition: margin-left .5s
+  padding: 40px
+
+@media screen and (max-height: 450px)
+.sidenav
+  padding-top: 15px
+.sidenav a
+  font-size: 18px
+
+
+.filter
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+  border: 2px solid $color_fonts1
+  padding: 10px 30px 10px 30px
+
+.gender, .breed
+  margin-left: 20px
+
+.gender input
+  margin-left: 20px
+  margin-top: 15px
+
+.breed
+  margin-top: 20px
+
+.breed select
+  border: 2px solid $color_fonts1
+  opacity: 0.4
+  width: 190px
+  height: 40px
+  color: $color_fonts1
+  font-family: $font_family_p
+  font-style: italic
+  font-size: $font_size_p-1
+  margin-top: 15px
+
+.form-filter
+  border: none
+
+.breed option
+  background: rgb(13, 1, 12, 0.3)
+
+.filter-submit, .filter-reset
+  color: $color_fonts1
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+  font-style: italic
+  border: 2px solid $color_fonts1
+  border-radius: 10px
+  opacity: 0.7
+  width: 100px
+  height: 40px
+  margin-top: 40px
+  margin-left: 5px
+
+.margin-left-submit
+  margin-left: 50px
+
+.heading-pet
+  font-family: $font_family_h1
+  font-size: $font_size_p-1
+
+.fa-heart, .fa-star, .fa-cart-plus
+  font-size: $font_size_p-1
+  color: $color_fonts1
+
+.price
+  font-style: italic
+
+.order
+  text-decoration: none
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+  border: 2px solid $color_fonts1
+  border-radius: 36px
+  opacity: 0.7
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.16)
+  color: $color_fonts1
+  font-style: italic
+  line-height: 1.12
+  height: 40px
+  width: 120px
+  text-align: center
+  padding-top: 5px
+
+.load
+  text-decoration: none
+  color: $color_fonts1
+  text-align: center
+
+.load-more
+  margin-top: 60px
+
+
+/* Style for page Dog Description */
+.picture-husky
+  width: 50%
+  border-radius: 20px
+  box-shadow: 20px 20px 10px 0 rgba(0,0,0,0.16)
+
+.fa-arrow-alt-circle-left
+  font-size: 27px
+  color: $color_fonts1
+
+.other-description, .blackFont, .moment-dog, .description-character
+  color: $color_fonts2
+
+.fa-paw
+  color: $color_fonts1
+
+.list-dog, .moment-dog
+  font-family: $font_family_p
+  font-size: $font_size_p-1
+
+.characteristic-p1
+  font-style: italic
+  line-height: 1.13
+
+.characteristic-p2
+  font-style: italic
+  line-height: 1.13
+  color: $color_fonts2
+
+progress
+  border: 1px solid $color_fonts1
+  background: #fff
+  border-radius: 14px
+
+progress::-moz-progress-bar
+  border-radius: 12px
+  background: #fff
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+  progress
+    height: 30px
+
+progress::-webkit-progress-bar
+  background: transparent
+
+progress::-webkit-progress-value
+  border-radius: 12px
+  background: $color_fonts1
+
+

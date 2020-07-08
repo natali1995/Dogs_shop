@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="greed-style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="animation_filter.js"></script>
+</head>
+<body>
+<div class="container">
+    <section>
+        <div class="content-menu">
+            <img class="logo" src="img/logo3.png" alt="logo">
+            <form class="search-form">
+                <label>
+                    <input class="search-input" type="text" placeholder="Search...">
+                </label>
+                <button class="submit-search" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="menu">
+                <ul class="main_menu">
+                    <li class="menu-list">
+                        <a class="menu-link" href="home.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="menu-list">
+                        <a class="menu-link menu-link-active" href="catalog.html">Catalog</a>
+                    </li>
+                    <li class="menu-list">
+                        <a class="menu-link" href="#">Order Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="your-pets">
+        <h1 class="heading-your-pets">Choose your pet</h1>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <form class="form-filter" action="">
+                <fieldset class="form-filter">
+                    <div class="gender">
+                        <p class="gender-heading">Gender affiliation:</p>
+                        <p><label>
+                            <input name="pet" type="radio" value="girl">
+                        </label>girl</p>
+                        <p><label>
+                            <input name="pet" type="radio" value="boy">
+                        </label>boy</p>
+                    </div>
+                    <div class="breed">
+                        <p class="heading-breed">Dog breed:</p>
+                        <div include="form-input-select()">
+                            <label>
+                                <select class="selectPet" required>
+                                    <!--
+                                      This is how we can do "placeholder" options.
+                                      note: "required" attribute is on the select
+                                    -->
+                                    <option value=""
+                                            hidden
+                                    >Choose breed dog</option>
+
+                                    <!-- normal options -->
+                                    <option value="1">Korgi</option>
+                                    <option value="2">Labrador</option>
+                                    <option value="3">Akita Inu</option>
+                                    <option value="4">Chihuahua</option>
+                                    <option value="5">Spitz</option>
+                                    <option value="6">Yorkshire Terrier</option>
+                                    <option value="7">Husky</option>
+                                    <option value="8">Russian Toy-Terrier</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="filter-submit margin-left-submit" type="submit">Apply</button>
+                    <button class="filter-reset" type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="main">
+            <span class="filter" style="cursor:pointer" onclick="openNav()">Filter <i class="fas fa-filter"></i></span>
+        </div>
+        <div class="pets">
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/korgi.jpg" alt="korgi"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Korgi</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/labrador.jpg" alt="labrador"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Labrador</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/akita-inu.jpg" alt="akita-inu"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Akita Inu</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/chichuahua.jpg" alt="chichuahua"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Chihuahua</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/spitz.jpg" alt="spitz"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Spitz</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/yorkshier-terier.jpg" alt="yorkshier-terrier"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Yorkshire Terrier</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/husky.jpg" alt="husky"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Husky</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="doggy">
+                <a class="link-dog" href="dog_description.html"><img class="dog" src="img/russian-toy-terrier.jpg" alt="russian toy-terrier"></a>
+                <div class="doggy-up">
+                    <h2 class="heading-pet">Russian Toy-Terrier</h2>
+                    <a class="icon-heart" href="#"><i class="far fa-heart"></i></a>
+                    <a class="icon-star" href="#"><i class="far fa-star"></i></a>
+                </div>
+                <div class="doggy-down">
+                    <p class="price">1000$</p>
+                    <a class="order" href="#">Order <i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="load" href="#"><h1 class="load-more">Load more . . .</h1></a>
+    </section>
+    <section class="footer-section">
+        <img src="img/orig.gif" width="100%" height="100%" alt="line"><br>
+        <div class="footer">
+            <div class="address">
+                <h3 class="footer-address-h3">Address</h3>
+                <p class="footer-address-p footer-p">244 Jackson St San Francisko</p>
+            </div>
+            <div class="email">
+                <h3 class="footer-email-h3">E-mail</h3>
+                <p class="footer-email-p footer-p">lovely_pets.com</p>
+            </div>
+            <div class="request-call">
+                <i class="fas fa-phone-volume"></i>
+                <h3 class="footer-request-h3">Request call</h3>
+            </div>
+            <div class="phone">
+                <h3 class="footer-phone-h3">Phone</h3>
+                <p class="footer-phone-p footer-p">+1(489)715-89-67</p>
+            </div>
+            <div class="social-network">
+                <h3 class="footer-social-network-h3">You can find us:</h3>
+                <i class="fab fa-twitter"></i>
+                <p class="footer-twitter-p footer-p">lovely_pets.com</p>
+                <i class="fab fa-facebook"></i>
+                <p class="footer-facebook-p footer-p">lovely_pets.com</p>
+                <i class="fab fa-telegram"></i>
+                <p class="footer-telegram-p footer-p">lovely_pets.com</p>
+            </div>
+            <p class="copyright"> &copy; Copyright - lovely_pets.com 2020. All right reserved</p>
+        </div>
+    </section>
+</div>
+</body>
+</html>
