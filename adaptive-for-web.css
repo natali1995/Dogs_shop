@@ -1,0 +1,392 @@
+@media all and (min-width: 1363px) {
+  /* Adaptive for page Home */
+  .slide1 {
+    background-image: url("img/slide1-web-max.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .slide2 {
+    background-image: url("img/slide2-web.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .slide3 {
+    background-image: url("img/slide3-web-max.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .slide4 {
+    background-image: url("img/slide4-web-max.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .content-menu {
+    display: grid;
+    grid-template-areas: "logo logo" "menu search";
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 200px 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .logo {
+    justify-self: center;
+    height: 100%;
+  }
+
+  .menu {
+    justify-self: start;
+  }
+
+  .main_menu {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    justify-self: start;
+  }
+
+  .menu-list {
+    justify-self: start;
+  }
+
+  .menu-link {
+    font-size: 50px;
+  }
+
+  .search-form {
+    align-self: center;
+    width: 400px;
+  }
+
+  .search-input {
+    font-size: 40px;
+    height: 76px;
+    padding-left: 35px;
+  }
+
+  input[type=text]::-webkit-input-placeholder {
+    font-size: 40px;
+  }
+
+  input[type=text]::-moz-placeholder {
+    font-size: 40px;
+  }
+
+  .submit-search {
+    height: 76px;
+    width: 76px;
+  }
+
+  .fa-search {
+    font-size: 40px;
+  }
+
+  .slider__control {
+    width: 80px;
+    height: 100px;
+    top: 60%;
+  }
+
+  .slider__control::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slider__indicators li {
+    width: 60px;
+    height: 8px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .fa-dog, .fa-coins, .fa-truck, .fa-clock, .fa-heartbeat {
+    font-size: 60px;
+  }
+
+  .our-offer {
+    display: grid;
+    grid-template-areas: "heading-offer heading-offer" "offer1 offer3" "offer2 offer2" "offer5 offer4";
+    grid-row-gap: 100px;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .offer1 {
+    margin-top: 0;
+  }
+
+  .offer2 {
+    width: 40%;
+  }
+
+  .offer3 {
+    width: 50%;
+  }
+
+  .offer5 {
+    width: 80%;
+  }
+
+  .phone-img1 {
+    height: 30%;
+    margin-top: 400px;
+  }
+
+  .phone-img2 {
+    margin-top: 750px;
+  }
+
+  .choose-dog-h1 {
+    margin-top: 200px;
+  }
+
+  .trending-dogs {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  .footer-p {
+    font-size: 30px;
+  }
+
+  .fa-phone-volume {
+    font-size: 50px;
+  }
+
+  .fa-twitter, .fa-facebook, .fa-telegram {
+    font-size: 40px;
+  }
+
+  .copyright {
+    font-size: 20px;
+  }
+
+  .footer-section {
+    margin-top: 100px;
+  }
+
+  .footer {
+    grid-template-areas: "f-social f-address f-email" "f-social f-reguest f-phone" "copyright copyright copyright";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .social-network {
+    justify-self: start;
+    align-self: center;
+  }
+
+  .phone {
+    justify-self: start;
+  }
+
+  .phone-footer {
+    height: 40%;
+  }
+
+  /* Adaptive for page Catalog */
+  .heading-your-pets {
+    margin-top: 127px;
+  }
+
+  .filter {
+    font-size: 40px;
+  }
+
+  .gender p, .heading-breed {
+    font-size: 30px;
+  }
+
+  #main {
+    padding-top: 100px;
+  }
+
+  .gender-heading {
+    margin-top: 40px;
+  }
+
+  .gender p {
+    margin-top: 20px;
+  }
+
+  .your-pets {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .pets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .heading-pet, .fa-heart, .fa-star, .fa-cart-plus {
+    font-size: 40px;
+  }
+
+  .order {
+    font-size: 40px;
+    width: 250px;
+    height: 70px;
+  }
+
+  .doggy {
+    margin-top: 50px;
+  }
+
+  .doggy-down {
+    margin-top: 100px;
+  }
+
+  .load-more {
+    margin-top: 100px;
+  }
+
+  /* Adaptive for page Description Dog */
+  .fa-arrow-alt-circle-left {
+    font-size: 50px;
+  }
+
+  .Husky {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+  }
+
+  .picture-description {
+    display: grid;
+    grid-template-areas: "picture description";
+    grid-template-columns: 3fr 2fr;
+    margin-top: 100px;
+  }
+
+  .picture-husky {
+    grid-area: picture;
+    width: 90%;
+  }
+
+  .short-description {
+    grid-area: description;
+    align-self: center;
+    width: 60%;
+  }
+
+  .other-description {
+    margin-top: 100px;
+  }
+
+  .list-dog, .moment-dog {
+    font-size: 40px;
+  }
+
+  .short-information {
+    margin-top: 130px;
+    text-align: end;
+  }
+
+  .menu-dog {
+    margin-top: 100px;
+    margin-left: 430px;
+  }
+
+  .list-dog {
+    margin-top: 40px;
+  }
+
+  .general-moments {
+    margin-top: 150px;
+    text-align: start;
+  }
+
+  .moment-dog {
+    margin-top: 70px;
+  }
+
+  .husky-character {
+    margin-top: 128px;
+  }
+
+  .description-character {
+    margin-top: 50px;
+  }
+
+  .the-first-character {
+    margin-top: 50px;
+  }
+
+  .breed-characteristics {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 109px;
+  }
+
+  .heading-characteristic {
+    text-align: start;
+  }
+
+  progress {
+    width: 590px;
+    border-radius: 40px;
+  }
+
+  progress::-moz-progress-bar {
+    border-radius: 40px;
+  }
+
+  progress::-webkit-progress-value {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 1363px) and (-webkit-min-device-pixel-ratio: 0) {
+  progress {
+    height: 80px;
+  }
+}
+@media all and (min-width: 1363px) {
+  .doggy-characteristic {
+    margin-top: 74px;
+    grid-row-gap: 100px;
+  }
+}
+@media all and (min-width: 1363px) {
+  .characteristic-breed {
+    grid-row-gap: 38px;
+  }
+}
+@media all and (min-width: 1363px) {
+  .fon-husky2 {
+    right: 0;
+    margin-top: -150px;
+  }
+}
+@media all and (min-width: 1363px) {
+  .fon-husky1 {
+    left: 0;
+    margin-top: -500px;
+    height: 10%;
+  }
+}
+
+/*# sourceMappingURL=adaptive-for-web.css.map */

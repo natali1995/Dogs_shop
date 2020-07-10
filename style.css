@@ -146,21 +146,25 @@ body {
 .slide1 {
   background-image: url("img/slide1-mobile.jpg");
   background-size: cover;
+  height: 60vh;
 }
 
 .slide2 {
   background-image: url("img/slide2-mobile.jpg");
   background-size: cover;
+  height: 60vh;
 }
 
 .slide3 {
   background-image: url("img/slide3-mobile.jpg");
   background-size: cover;
+  height: 60vh;
 }
 
 .slide4 {
   background-image: url("img/slide4-mobile.jpg");
   background-size: cover;
+  height: 60vh;
 }
 
 /* для кнопки search */
@@ -458,7 +462,7 @@ h3 {
 
 /* Style for page Dog Description */
 .picture-husky {
-  width: 50%;
+  width: 80%;
   border-radius: 20px;
   box-shadow: 20px 20px 10px 0 rgba(0, 0, 0, 0.16);
 }
@@ -479,6 +483,7 @@ h3 {
 .list-dog, .moment-dog {
   font-family: "Philosopher", sans-serif;
   font-size: 20px;
+  list-style-type: none;
 }
 
 .characteristic-p1 {
@@ -495,17 +500,18 @@ h3 {
 progress {
   border: 1px solid #b20838;
   background: #fff;
-  border-radius: 14px;
+  border-radius: 10px;
+  width: 170px;
 }
 
 progress::-moz-progress-bar {
-  border-radius: 12px;
+  border-radius: 8px;
   background: #fff;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   progress {
-    height: 30px;
+    height: 24px;
   }
 }
 progress::-webkit-progress-bar {
@@ -513,8 +519,62 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  border-radius: 12px;
+  border-radius: 8px;
   background: #b20838;
+}
+
+/* Style for page Order Form */
+.heading-order-form {
+  text-align: center;
+}
+
+.order-dog {
+  border: 2px solid #b20838;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectPetty {
+  border: 1px solid #b20838;
+  border-radius: 81px;
+  height: 27px;
+  color: #b20838;
+  font-family: "Philosopher", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.13;
+  margin-top: 10px;
+}
+
+.dog-textarea {
+  border: 1px solid #b20838;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #b20838;
+  font-family: "Philosopher", sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+::-webkit-input-placeholder {
+  color: #b20838;
+  font-style: italic;
+  font-family: "Philosopher", sans-serif;
+  font-size: 15px;
+}
+
+.order-submit {
+  font-family: "Jacques Francois Shadow", cursive;
+  font-size: 20px;
+  color: #b20838;
+  border: 2px solid #b20838;
+  border-radius: 82px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.16);
+  background: none;
+  width: 187px;
+  height: 41px;
 }
 
 /*# sourceMappingURL=style.css.map */

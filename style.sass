@@ -137,18 +137,22 @@ body
 .slide1
   background-image: url("img/slide1-mobile.jpg")
   background-size: cover
+  height: 60vh
 
 .slide2
   background-image: url("img/slide2-mobile.jpg")
   background-size: cover
+  height: 60vh
 
 .slide3
   background-image: url("img/slide3-mobile.jpg")
   background-size: cover
+  height: 60vh
 
 .slide4
   background-image: url("img/slide4-mobile.jpg")
   background-size: cover
+  height: 60vh
 
 /* для кнопки search */
 *
@@ -403,7 +407,7 @@ h3
 
 /* Style for page Dog Description */
 .picture-husky
-  width: 50%
+  width: 80%
   border-radius: 20px
   box-shadow: 20px 20px 10px 0 rgba(0,0,0,0.16)
 
@@ -420,6 +424,7 @@ h3
 .list-dog, .moment-dog
   font-family: $font_family_p
   font-size: $font_size_p-1
+  list-style-type: none
 
 .characteristic-p1
   font-style: italic
@@ -433,21 +438,69 @@ h3
 progress
   border: 1px solid $color_fonts1
   background: #fff
-  border-radius: 14px
+  border-radius: 10px
+  width: 170px
 
 progress::-moz-progress-bar
-  border-radius: 12px
+  border-radius: 8px
   background: #fff
 
 @media screen and (-webkit-min-device-pixel-ratio: 0)
   progress
-    height: 30px
+    height: 24px
 
 progress::-webkit-progress-bar
   background: transparent
 
 progress::-webkit-progress-value
-  border-radius: 12px
+  border-radius: 8px
   background: $color_fonts1
 
+/* Style for page Order Form */
+.heading-order-form
+  text-align: center
 
+.order-dog
+  border: 2px solid $color_fonts1
+  border-radius: 30px
+  background-color: rgba(255, 255, 255, 0.3)
+
+.selectPetty
+  border: 1px solid $color_fonts1
+  border-radius: 81px
+  height: 27px
+  color: $color_fonts1
+  font-family: $font_family_p
+  font-size: $font-size-p2
+  font-style: italic
+  line-height: 1.13
+  margin-top: 10px
+
+.dog-textarea
+  border: 1px solid $color_fonts1
+  border-radius: 18px
+  background-color: rgba(255, 255, 255, 0.6)
+  color: $color_fonts1
+  font-family: $font_family_p
+  font-size: $font-size-p2
+  padding-left: 15px
+  padding-top: 10px
+  font-style: italic
+
+
+::-webkit-input-placeholder
+  color: $color_fonts1
+  font-style: italic
+  font-family: $font_family_p
+  font-size: $font-size-p2
+
+.order-submit
+  font-family: $font_family_h1
+  font-size: $font_size_p-1
+  color: $color_fonts1
+  border: 2px solid $color_fonts1
+  border-radius: 82px
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.16)
+  background: none
+  width: 187px
+  height: 41px
