@@ -1,13 +1,13 @@
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   /* Adaptive for page Home */
   .slide1 {
-    background-image: url("img/slide1-web-max.jpg");
+    background-image: url("img/slide1-web-adaptive.jpg");
     background-size: cover;
     height: 100vh;
   }
 
   .slide2 {
-    background-image: url("img/slide2-web.jpg");
+    background-image: url("img/slide2-web-adaptive.jpg");
     background-size: cover;
     height: 100vh;
   }
@@ -30,8 +30,8 @@
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 200px 100px;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .logo {
@@ -46,7 +46,7 @@
   .main_menu {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px;
+    grid-column-gap: 0;
     justify-self: start;
   }
 
@@ -55,35 +55,35 @@
   }
 
   .menu-link {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .search-form {
     align-self: center;
-    width: 400px;
+    width: 250px;
   }
 
   .search-input {
-    font-size: 40px;
-    height: 76px;
-    padding-left: 35px;
+    font-size: 30px;
+    height: 56px;
+    padding-left: 25px;
   }
 
   input[type=text]::-webkit-input-placeholder {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   input[type=text]::-moz-placeholder {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .submit-search {
-    height: 76px;
-    width: 76px;
+    height: 56px;
+    width: 56px;
   }
 
   .fa-search {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .slider__control {
@@ -103,15 +103,15 @@
   }
 
   h1 {
-    font-size: 50px;
-  }
-
-  p {
     font-size: 40px;
   }
 
+  p {
+    font-size: 30px;
+  }
+
   .fa-dog, .fa-coins, .fa-truck, .fa-clock, .fa-heartbeat {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .our-offer {
@@ -132,7 +132,7 @@
   }
 
   .offer3 {
-    width: 50%;
+    width: 70%;
   }
 
   .offer5 {
@@ -140,8 +140,8 @@
   }
 
   .phone-img1 {
-    height: 30%;
-    margin-top: 400px;
+    height: 25%;
+    margin-top: 300px;
   }
 
   .phone-img2 {
@@ -153,8 +153,8 @@
   }
 
   .trending-dogs {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -163,19 +163,19 @@
   }
 
   h3 {
-    font-size: 40px;
-  }
-
-  .footer-p {
     font-size: 30px;
   }
 
+  .footer-p {
+    font-size: 20px;
+  }
+
   .fa-phone-volume {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .fa-twitter, .fa-facebook, .fa-telegram {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .copyright {
@@ -190,8 +190,8 @@
     grid-template-areas: "f-social f-address f-email" "f-social f-reguest f-phone" "copyright copyright copyright";
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .social-network {
@@ -209,19 +209,19 @@
 
   /* Adaptive for page Catalog */
   .heading-your-pets {
-    margin-top: 127px;
+    margin-top: 70px;
   }
 
   .filter {
-    font-size: 40px;
-  }
-
-  .gender p, .heading-breed {
     font-size: 30px;
   }
 
+  .gender p, .heading-breed {
+    font-size: 20px;
+  }
+
   #main {
-    padding-top: 100px;
+    padding-top: 70px;
   }
 
   .gender-heading {
@@ -233,8 +233,8 @@
   }
 
   .your-pets {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .pets {
@@ -243,13 +243,13 @@
   }
 
   .heading-pet, .fa-heart, .fa-star, .fa-cart-plus {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .order {
-    font-size: 40px;
-    width: 250px;
-    height: 70px;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
   }
 
   .doggy {
@@ -257,29 +257,29 @@
   }
 
   .doggy-down {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .load-more {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   /* Adaptive for page Description Dog */
   .fa-arrow-alt-circle-left {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .Husky {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 70px;
   }
 
   .picture-description {
     display: grid;
     grid-template-areas: "picture description";
     grid-template-columns: 3fr 2fr;
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .picture-husky {
@@ -294,20 +294,20 @@
   }
 
   .other-description {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .list-dog, .moment-dog {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .short-information {
-    margin-top: 130px;
+    margin-top: 70px;
     text-align: end;
   }
 
   .menu-dog {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 430px;
   }
 
@@ -316,16 +316,16 @@
   }
 
   .general-moments {
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: start;
   }
 
   .moment-dog {
-    margin-top: 70px;
+    margin-top: 40px;
   }
 
   .husky-character {
-    margin-top: 128px;
+    margin-top: 100px;
   }
 
   .description-character {
@@ -337,9 +337,9 @@
   }
 
   .breed-characteristics {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 109px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 79px;
   }
 
   .heading-characteristic {
@@ -347,7 +347,7 @@
   }
 
   progress {
-    width: 590px;
+    width: 400px;
     border-radius: 40px;
   }
 
@@ -361,105 +361,105 @@
 
   /* Adaptive for page Order Form */
 }
-@media screen and (min-width: 1605px) and (-webkit-min-device-pixel-ratio: 0) {
+@media screen and (min-width: 1150px) and (max-width: 1605px) and (-webkit-min-device-pixel-ratio: 0) {
   progress {
-    height: 80px;
+    height: 60px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .doggy-characteristic {
-    margin-top: 74px;
-    grid-row-gap: 100px;
+    margin-top: 54px;
+    grid-row-gap: 70px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .characteristic-breed {
-    grid-row-gap: 38px;
+    grid-row-gap: 30px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .fon-husky2 {
-    right: 0;
-    margin-top: -150px;
+    right: 35px;
+    margin-top: -130px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .fon-husky1 {
     left: 0;
-    margin-top: -500px;
+    margin-top: -400px;
     height: 10%;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-form {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .selectPetty {
-    height: 50px;
-    font-size: 30px;
+    height: 40px;
+    font-size: 20px;
     margin-top: 30px;
     padding-left: 20px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .girl-boy input {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .dog-textarea {
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 30px;
     padding-top: 20px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   ::-webkit-input-placeholder {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-submit {
-    font-size: 30px;
-    width: 300px;
-    height: 80px;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-dog {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 200px;
     margin-right: 200px;
     grid-row-gap: 40px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .message-order-form {
     margin-bottom: 40px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-submit {
     margin-left: 320px;
     margin-top: 40px;
     margin-bottom: 80px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-dog1 {
     height: 40%;
-    margin-top: 0;
-    margin-left: 250px;
+    margin-top: -38px;
+    margin-left: 200px;
   }
 }
-@media all and (min-width: 1605px) {
+@media all and (min-width: 1150px) and (max-width: 1605px) {
   .order-dog2 {
     margin-top: 400px;
     height: 80%;
   }
 }
 
-/*# sourceMappingURL=adaptive-for-web.css.map */
+/*# sourceMappingURL=Adaptive2.css.map */

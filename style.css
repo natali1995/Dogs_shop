@@ -144,27 +144,27 @@ body {
 
 /* для 1 слайда */
 .slide1 {
-  background-image: url("img/slide1-mobile.jpg");
+  background-image: url("img/slide1-mobile-min.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
 }
 
 .slide2 {
-  background-image: url("img/slide2-mobile.jpg");
+  background-image: url("img/slide2-mobile-min.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
 }
 
 .slide3 {
   background-image: url("img/slide3-mobile.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
 }
 
 .slide4 {
-  background-image: url("img/slide4-mobile.jpg");
+  background-image: url("img/slide4-mobile-min.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
 }
 
 /* для кнопки search */
@@ -216,7 +216,7 @@ input[type=text]::-moz-placeholder {
 }
 
 .search-input:focus {
-  box-shadow: 0 0 0.25em 0.25em rgba(179, 7, 39, 0.25);
+  box-shadow: 0 0 0.25em 0.25em rgba(207, 0, 15, 0.4);
 }
 
 .fa-search {
@@ -278,6 +278,14 @@ p {
   width: 98%;
 }
 
+.scale {
+  transition: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
+
 /* Style for section footer */
 h3 {
   font-family: "Philosopher", sans-serif;
@@ -312,7 +320,7 @@ h3 {
   line-height: 1.15;
 }
 
-/* Style for page Contact */
+/* Style for page Catalog */
 /* Style for section filter */
 .sidenav {
   height: 100%;
@@ -460,6 +468,22 @@ h3 {
   margin-top: 60px;
 }
 
+.fa-heart:hover {
+  color: red;
+}
+
+.fa-star:hover {
+  color: red;
+}
+
+.order:hover {
+  box-shadow: 0.1em 0.1em 0.25em 0 #cf000f;
+}
+
+.load-more:hover {
+  color: red;
+}
+
 /* Style for page Dog Description */
 .picture-husky {
   width: 80%;
@@ -575,6 +599,14 @@ progress::-webkit-progress-value {
   background: none;
   width: 187px;
   height: 41px;
+}
+
+.order-submit:hover {
+  box-shadow: 0.1em 0.1em 0.25em 0 #cf000f;
+}
+
+.fa-arrow-alt-circle-left:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
