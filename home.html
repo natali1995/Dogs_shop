@@ -175,6 +175,22 @@
         <a class="petty scale" href="dog_description.html"><img class="pet1" src="img/akita-inu.jpg" alt="akita-inu"></a>
     </div>
 </section>
+<section>
+<div class="facts">
+    <p id="fact"></p>
+    <script>
+        $(document).ready(function(){
+            $.get('https://cat-fact.herokuapp.com/facts/random?animal_type=dog', function(data){
+               $('#fact').html(data['text'])
+                        .css("width", "80%")
+                        .css("text-align", "center")
+                        .css("margin-left", "10%")
+                        .css("margin-top", "8%")
+            });
+        }) // end ready
+    </script>
+</div>
+</section>
 <section class="footer-section">
     <img src="img/orig.gif" width="100%" height="100%" alt="line"><br>
     <div class="footer">
