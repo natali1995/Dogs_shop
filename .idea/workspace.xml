@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8c47510-6851-47b3-9e95-d81812e6f85a" name="Default Changelist" comment="Add some random facts about dogs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1m0tFRt4AAnROVWFb5MyUwwFeGx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8c47510-6851-47b3-9e95-d81812e6f85a" name="Default Changelist" comment="" />
+      <created>1608642232224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608642232224</updated>
+      <workItem from="1608642233829" duration="4659000" />
+      <workItem from="1608649807047" duration="847000" />
+      <workItem from="1608650783160" duration="203000" />
+      <workItem from="1608727657877" duration="308000" />
+      <workItem from="1608828051208" duration="937000" />
+      <workItem from="1609790785221" duration="552000" />
+      <workItem from="1609862594078" duration="19000" />
+      <workItem from="1609937382071" duration="556000" />
+      <workItem from="1610009234905" duration="55000" />
+      <workItem from="1620652485099" duration="2599000" />
+      <workItem from="1620735712210" duration="1422000" />
+      <workItem from="1620819927631" duration="410000" />
+      <workItem from="1620987228403" duration="13000" />
+      <workItem from="1626182868858" duration="661000" />
+      <workItem from="1626270242981" duration="1298000" />
+      <workItem from="1646843208010" duration="40000" />
+      <workItem from="1648664633460" duration="104000" />
+      <workItem from="1648729635817" duration="28000" />
+      <workItem from="1648751832084" duration="20000" />
+      <workItem from="1650383749932" duration="38000" />
+      <workItem from="1650919109461" duration="77000" />
+      <workItem from="1665529951328" duration="263000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add some random facts about dogs">
+      <created>1608650633450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608650633450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add some random facts about dogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some random facts about dogs" />
+  </component>
+</project>
