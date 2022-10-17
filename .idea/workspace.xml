@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c47510-6851-47b3-9e95-d81812e6f85a" name="Default Changelist" comment="Add some random facts about dogs" />
+    <list default="true" id="b8c47510-6851-47b3-9e95-d81812e6f85a" name="Default Changelist" comment="Add some random facts about dogs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +65,9 @@
       <workItem from="1650383749932" duration="38000" />
       <workItem from="1650919109461" duration="77000" />
       <workItem from="1665529951328" duration="263000" />
+      <workItem from="1665530222451" duration="116000" />
+      <workItem from="1665531392634" duration="1000" />
+      <workItem from="1666042046210" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Add some random facts about dogs">
       <created>1608650633450</created>
@@ -71,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608650633450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add some random facts about dogs">
+      <created>1665530251199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665530251199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
